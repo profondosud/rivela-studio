@@ -1,0 +1,42 @@
+/* Bodoni titles, Pinyon slogans, Inter reading text and controls. */
+h1,h2,h3{font-family:'Bodoni Moda',Didot,'Times New Roman',serif;font-weight:500;font-style:normal;font-optical-sizing:auto;letter-spacing:.025em;line-height:1.15;text-transform:uppercase;text-wrap:pretty}
+.section-display,.concise-hero h1,#chi-siamo .about-studio-copy h2,.benefits-studio .benefits-title,.contact-compact h1,section.project-launcher .project-launch-copy>h2,#servizi .compact-heading h1,#portfolio .section-display,#prezzi .section-display{font-family:'Bodoni Moda',Didot,'Times New Roman',serif;font-weight:500;font-style:normal;font-optical-sizing:auto;letter-spacing:.025em;line-height:1.15;text-transform:uppercase;-webkit-text-stroke:0}
+.concise-hero h1{font-size:clamp(2.5rem,4.1vw,4.4rem);max-width:none}
+.concise-hero h1 em,#chi-siamo .about-studio-copy h2>em,.benefits-studio .benefits-title>em,.contact-compact h1>em,section.project-launcher .project-launch-copy>h2>em,#portfolio .section-display em{font:inherit;letter-spacing:inherit;line-height:inherit;margin-top:0}
+#chi-siamo .about-studio-copy h2{font-size:clamp(1.8rem,3.2vw,3rem);max-width:none}
+.benefits-studio .benefits-title{font-size:clamp(1.9rem,3.5vw,3.4rem)}
+.contact-compact h1{font-size:clamp(2.1rem,3.5vw,3.7rem)}
+.contact-compact h1>span,.contact-compact h1>em{display:block}
+section.project-launcher .project-launch-copy>h2{font-size:clamp(2rem,3.2vw,3.2rem);max-width:none}
+#servizi .compact-heading h1{font-size:clamp(2.2rem,4.2vw,4.2rem)}
+#portfolio .section-display,#prezzi .section-display,.process-heading .section-display{font-size:clamp(2rem,3.4vw,3.5rem)}
+.service-explorer .offer h2{font-family:'Bodoni Moda',Didot,serif;font-weight:500;font-size:clamp(1.5rem,2.4vw,2rem);line-height:1.2;letter-spacing:.025em}
+#come-funziona .process-explorer.is-enhanced .process-track h2{font-family:'Bodoni Moda',Didot,serif;font-weight:500;font-size:clamp(1.7rem,2.6vw,2.3rem);line-height:1.15;letter-spacing:.025em}
+.benefits-outcome>h2,.benefits-outcome>h2 em{font-family:'Bodoni Moda',Didot,serif;font-weight:500;font-style:normal;font-size:1.35rem;line-height:1.3;letter-spacing:.015em}
+.contact-compact .form-heading h2{font-family:'Bodoni Moda',Didot,serif;font-weight:600;font-size:clamp(.95rem,1.6vw,1.15rem);line-height:1.35;letter-spacing:.015em}
+#prezzi .price-card h3{font-family:'Bodoni Moda',Didot,serif;font-weight:500;font-size:1.35rem;line-height:1.3;letter-spacing:.02em}
+.portfolio-copy h3{font-family:'Bodoni Moda',Didot,serif;font-weight:500;font-size:1.7rem;letter-spacing:.035em}
+.menu-pages a>span:nth-child(2){font-family:'Bodoni Moda',Didot,serif;font-weight:500;letter-spacing:.035em;text-transform:uppercase}
+/* The brand signature and introductory slogans retain the chosen calligraphy. */
+#come-funziona .process-heading>.process-intro{font:400 clamp(1.85rem,2.6vw,2.6rem)/1.4 'Pinyon Script','Cormorant Garamond',Georgia,serif;letter-spacing:0;max-width:28ch;-webkit-text-stroke:.22px currentColor}
+.footer-slim .footer-slogan{font:400 1.5rem/1.35 'Pinyon Script','Cormorant Garamond',Georgia,serif;letter-spacing:0;-webkit-text-stroke:.14px currentColor}
+.menu-signature{font:400 1.75rem/1.4 'Pinyon Script','Cormorant Garamond',Georgia,serif;letter-spacing:0;-webkit-text-stroke:.14px currentColor}
+.menu-overline{font:400 clamp(1.9rem,3.2vw,2.65rem)/1.3 'Pinyon Script','Cormorant Garamond',Georgia,serif;letter-spacing:0;text-transform:none;-webkit-text-stroke:.18px currentColor;margin-bottom:20px}
+@media(max-width:760px){.concise-hero h1{font-size:clamp(2rem,8.6vw,3.4rem)}#chi-siamo .about-studio-copy h2{font-size:clamp(1.6rem,6.4vw,2.5rem)}.benefits-studio .benefits-title{font-size:clamp(1.7rem,7vw,2.6rem)}.contact-compact h1{font-size:clamp(1.9rem,7.5vw,2.8rem)}section.project-launcher .project-launch-copy>h2{font-size:clamp(1.8rem,7.2vw,2.8rem)}#servizi .compact-heading h1,#portfolio .section-display,#prezzi .section-display,.process-heading .section-display{font-size:clamp(1.8rem,7.4vw,2.9rem)}#come-funziona .process-heading>.process-intro{font-size:2rem}.footer-slim .footer-slogan{font-size:1.3rem;max-width:22ch}.menu-signature{font-size:1.55rem}}
+@media(max-width:600px){.service-explorer .offer h2{font-size:1.5rem}.benefits-outcome>h2,.benefits-outcome>h2 em{font-size:1.15rem}.menu-pages a>span:nth-child(2){font-size:clamp(1.25rem,5vw,1.8rem);letter-spacing:.025em}}
+@media(max-width:380px){.concise-hero h1{font-size:1.8rem}.footer-slim .footer-slogan{font-size:1.2rem;max-width:20ch}}
+@media(max-width:760px){.page-hero h1,.section-display{font-size:clamp(1.55rem,7.2vw,2.7rem)}}
+
+/* Explanatory copy follows the approved Cormorant price link. */
+.lead,.section-intro,.offer>p,.portfolio-copy>p:not(.portfolio-type),.process-track li>p,.price-description,.benefits-studio> .wrap>p,.benefits-outcome>p,.contact-intro-copy,section.project-launcher .project-launch-copy>p{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;font-size:clamp(1.25rem,1.6vw,1.4rem);line-height:1.5;letter-spacing:0}
+#chi-siamo .about-studio-intro{font:500 clamp(1.3rem,1.8vw,1.55rem)/1.5 'Cormorant Garamond',Georgia,serif;max-width:39ch}
+#chi-siamo .about-studio-method span{font-family:'Cormorant Garamond',Georgia,serif;font-size:1.25rem;font-weight:600;letter-spacing:0}
+#chi-siamo .about-studio-method p{font:500 1.2rem/1.5 'Cormorant Garamond',Georgia,serif;margin-top:8px}
+#chi-siamo .about-studio-credentials .experience-note{font:500 1.2rem/1.55 'Cormorant Garamond',Georgia,serif;max-width:57ch}
+@media(max-width:700px){#chi-siamo .about-studio-method{gap:20px}#chi-siamo .about-studio-method p,#chi-siamo .about-studio-credentials .experience-note{font-size:1.18rem}}
+#servizi .service-explorer .offer p,#come-funziona .process-explorer.is-enhanced .process-track>li>p,#vantaggi .benefits-intro>p,#vantaggi .benefits-outcome>p{font:500 clamp(1.2rem,1.5vw,1.35rem)/1.5 'Cormorant Garamond',Georgia,serif;letter-spacing:0}
+.compact-heading>p{font:500 clamp(1.2rem,1.5vw,1.35rem)/1.5 'Cormorant Garamond',Georgia,serif;letter-spacing:0}
+#portfolio .compact-heading{align-items:center;gap:40px;margin-bottom:34px}
+#portfolio .compact-heading .section-display{font:500 clamp(2.35rem,3.6vw,3.5rem)/1.05 'Cormorant Garamond',Georgia,serif;letter-spacing:-.03em;text-transform:none}
+#portfolio .compact-heading .section-display em{display:block;font:italic 500 .65em/1.2 'Cormorant Garamond',Georgia,serif;letter-spacing:-.01em;margin-top:10px;color:#e0becd}
+@media(max-width:700px){#portfolio .compact-heading{gap:20px;margin-bottom:28px}#portfolio .compact-heading .section-display em{font-size:.7em}}

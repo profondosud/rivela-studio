@@ -1,0 +1,157 @@
+/* Rivela · process palette · 2026-10-29. Page-local colour refinements. */
+
+#come-funziona {
+  background: radial-gradient(ellipse at 0 32%, #9bb8a10a, transparent 54%), #1d1e26;
+}
+
+#come-funziona .process-track > li {
+  --phase-accent: #c4b4df;
+  --phase-edge: #60536f;
+  --phase-muted: #9c8db1;
+  --phase-surface: #302b3c;
+  --phase-base: #24212d;
+  --phase-paper: #d8cee6;
+  --phase-ink: #30263e;
+  --phase-copy: #d6d1dd;
+  background: linear-gradient(150deg, var(--phase-surface), var(--phase-base) 82%);
+  border-color: var(--phase-edge) !important;
+  box-shadow: inset 0 3px 0 var(--phase-accent);
+}
+
+#come-funziona .process-track > li:first-child {
+  --phase-accent: #acc8b5;
+  --phase-edge: #4d695a;
+  --phase-muted: #8da998;
+  --phase-surface: #293b32;
+  --phase-base: #1d2a25;
+  --phase-paper: #d1e0d5;
+  --phase-ink: #23392d;
+  --phase-copy: #ced9d1;
+}
+
+#come-funziona .process-track > li:last-child {
+  --phase-accent: #d9b981;
+  --phase-edge: #776044;
+  --phase-muted: #b49b76;
+  --phase-surface: #3b3228;
+  --phase-base: #2b251f;
+  --phase-paper: #ead7b6;
+  --phase-ink: #3b2e1c;
+  --phase-copy: #ded5c7;
+}
+
+#come-funziona .phase-number,
+#come-funziona .phase-arrow,
+#come-funziona .phase-result > span {
+  color: var(--phase-accent);
+}
+
+#come-funziona .process-track h2 {
+  color: #f6f3ee;
+}
+
+#come-funziona .process-track > li > p {
+  color: var(--phase-copy);
+}
+
+#come-funziona .phase-result {
+  color: #f0ede8;
+  border-color: var(--phase-edge);
+}
+
+/* Recolour the existing SVG artwork without changing its geometry. */
+#come-funziona .phase-visual [fill="#30303e"],
+#come-funziona .phase-visual [fill="#5b536d"] {
+  fill: var(--phase-edge);
+}
+
+#come-funziona .phase-visual [fill="#c5badd"],
+#come-funziona .phase-visual [fill="#ded8e8"] {
+  fill: var(--phase-paper);
+}
+
+#come-funziona .phase-visual [fill="#b5a5d0"] {
+  fill: var(--phase-accent);
+}
+
+#come-funziona .phase-visual [fill="#aaa0bc"] {
+  fill: var(--phase-muted);
+}
+
+#come-funziona .phase-visual [fill="#716682"] {
+  fill: var(--phase-edge);
+}
+
+#come-funziona .phase-visual [stroke="#66617c"],
+#come-funziona .phase-visual [stroke="#655b78"] {
+  stroke: var(--phase-muted);
+}
+
+#come-funziona .phase-visual [stroke="#777085"],
+#come-funziona .phase-visual [stroke="#a99eb7"] {
+  stroke: var(--phase-muted);
+}
+
+#come-funziona .phase-visual [stroke="#25212d"],
+#come-funziona .phase-visual [stroke="#24212c"] {
+  stroke: var(--phase-ink);
+}
+
+/* A warm charcoal and paper accent gives the prices a quieter distinction. */
+#prezzi.pricing-section {
+  background: #201e1e;
+}
+
+#prezzi .eyebrow {
+  color: #d5b997;
+}
+
+#prezzi .price-card {
+  background: linear-gradient(145deg, #302b28, #242221);
+  border-color: #615448;
+  box-shadow: inset 0 2px 0 #c3a67e;
+}
+
+#prezzi .price-card:last-child {
+  background: linear-gradient(145deg, #292c29, #202522);
+  border-color: #4d5c50;
+  box-shadow: inset 0 2px 0 #9eb6a4;
+}
+
+#prezzi .price-card h3,
+#prezzi .price-amount,
+#prezzi .price-amount > span:last-child {
+  color: #eadcc7;
+}
+
+#prezzi .price-amount > span:first-child,
+#prezzi .price-description,
+#prezzi .price-card li {
+  color: #d1ccc6;
+}
+
+#prezzi .price-card ul {
+  border-color: #544b43;
+}
+
+#prezzi .price-card:last-child ul {
+  border-color: #465147;
+}
+
+#prezzi .price-card li::before,
+#prezzi .price-card .text-link {
+  color: #dcc3a0;
+}
+
+#prezzi .price-card:last-child li::before,
+#prezzi .price-card:last-child .text-link {
+  color: #b6cdbb;
+}
+
+#prezzi .price-card .text-link:focus-visible {
+  outline-color: #eadcc7;
+}
+
+#prezzi .pricing-note {
+  color: #beb9b3;
+}

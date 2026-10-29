@@ -1,0 +1,301 @@
+/* Rivela / charcoal and light. Shared final surfaces, no decorative background images. */
+:root{--bg:#161616;--surface:#272727;--panel:#f4f4f4;--ink:#f5f5f5;--muted:#cccccc;--accent:#d1d1d1;--line:#545454;--button:#5f5f5f}
+body{background:#161616}
+.page-hero{background:#181818;border-color:#404040}
+.header{background:#0a0a0af7;border-bottom-color:#3a3a3a}
+.btn{background:#5f5f5f;border-color:#5f5f5f;color:#ffffff}
+.btn:hover{background:#747474;border-color:#747474}
+.btn-outline{background:transparent;border-color:#a5a5a5;color:#f5f5f5}
+.btn-outline:hover{background:#373737;border-color:#d6d6d6}
+.text-link,.hero-contact{color:#d5d5d5}
+.concise-hero{background:radial-gradient(ellipse at 80% 40%,#b8b8b81a,transparent 59%),#161616;color:#f5f5f5}
+.concise-hero .eyebrow,.concise-hero h1 em{color:#e9e9e9}
+.concise-hero .lead{color:#d6d6d6}
+.concise-hero .showcase-caption,.concise-hero .showcase-caption>span:last-child{color:#cbcbcb}
+.concise-hero .showcase-link{color:#f1f1f1;border-color:#a5a5a5}
+.concise-hero .btn-outline{color:#f5f5f5;border-color:#a5a5a5}
+.concise-hero .btn-outline:hover{background:#373737;border-color:#d6d6d6}
+#chi-siamo{background:#1a1a1a;color:#f5f5f5;border-color:#404040}
+#chi-siamo .eyebrow{color:#cbcbcb}
+#chi-siamo .about-studio-copy h2{color:#f5f5f5}
+#chi-siamo .about-studio-copy h2>em{color:#e1e1e1}
+#chi-siamo .about-studio-intro,#chi-siamo .about-studio-method p,#chi-siamo .experience-note{color:#cdcdcd}
+#chi-siamo .about-studio-method>div,#chi-siamo .about-studio-credentials{border-color:#555555}
+#chi-siamo .about-studio-method span{color:#f1f1f1}
+#chi-siamo .experience-references>div>span{color:#c9c9c9}
+#chi-siamo .experience-logo-link{background:#232323;border:1px solid #5d5d5d;box-shadow:none}
+#chi-siamo .about-studio-board{background:#f1f1f1;color:#373737;border-color:#d3d3d3;box-shadow:0 12px 40px #e2e2e215;color-scheme:light}
+#chi-siamo .studio-board-top,#chi-siamo .studio-board-bottom{color:#555555}
+#chi-siamo .studio-paper{background:#ffffff;color:#393939;box-shadow:0 15px 30px #23232326}
+#chi-siamo .studio-swatch{background:#d2d2d2;color:#393939;box-shadow:0 12px 32px #23232326}
+#servizi{background:radial-gradient(ellipse at 80% 62%,#cfcfcf16,transparent 52%),#181818;color:#f5f5f5}
+#servizi>.wrap>.eyebrow,#servizi .service-explorer-hint{color:#cecece}
+#servizi .service-price-link .text-link{color:#e9e9e9}
+#servizi .service-explorer-tab{background:#262626;color:#e6e6e6;border-color:#5e5e5e}
+#servizi .service-explorer-tab:hover{background:#393939;color:#ffffff}
+#servizi .service-explorer-tab[aria-selected=true]{background:#5f5f5f;color:#ffffff;border-color:#a9a9a9}
+#servizi .service-explorer-number,#servizi .service-explorer-tab[aria-selected=true] .service-explorer-number{color:#e2e2e2}
+#servizi .service-explorer-tab[aria-selected=true] .service-explorer-marker{color:#ffffff}
+#servizi .service-explorer .offer{background:#f5f5f5;border-color:#d7d7d7;color:#343434;box-shadow:0 16px 46px #e2e2e212}
+#servizi .service-explorer .offer-art{background:#ededed!important}
+#servizi .service-explorer .offer h2{color:#373737}
+#servizi .service-explorer .offer p{color:#575757}
+#servizi .service-explorer .offer .text-link{color:#525252}
+#servizi .service-explorer .example-open{color:#4b4b4b}
+#servizi .illustration-note{color:#cbcbcb}
+#portfolio{background:#1d1d1d;color:#f5f5f5;border-color:#434343}
+#portfolio .eyebrow{color:#cfcfcf}
+#portfolio .section-display{color:#f5f5f5}
+#portfolio .section-display em{color:#e3e3e3}
+#portfolio .compact-heading>p{color:#cbcbcb}
+#portfolio .portfolio-card{background:#f5f5f5;border:1px solid #dbdbdb;border-radius:12px;overflow:hidden;color:#383838}
+#portfolio .portfolio-preview{border:0;border-radius:0;background:#262626;transform:none}
+#portfolio .portfolio-preview:hover{border:0;transform:none}
+#portfolio .portfolio-copy{padding:23px 23px 25px}
+#portfolio .portfolio-type{color:#616161}
+#portfolio .portfolio-copy h3{color:#383838}
+#portfolio .portfolio-copy>p:not(.portfolio-type){color:#585858}
+#portfolio .portfolio-copy .text-link{color:#515151}
+#come-funziona{background:radial-gradient(ellipse at 54% 68%,#d3d3d312,transparent 58%),#181818;color:#f5f5f5}
+#come-funziona .process-heading .section-display{color:#f5f5f5}
+#come-funziona .section-kicker,#come-funziona .section-kicker span:last-child{color:#d1d1d1}
+#come-funziona .process-heading>.process-intro{color:#e8e8e8}
+#come-funziona .process-explorer.is-enhanced{--path-accent:#c7c7c7}
+#come-funziona .process-explorer[data-phase="2"]{--path-accent:#c1c1c1}
+#come-funziona .process-explorer[data-phase="3"]{--path-accent:#cacaca}
+#come-funziona .process-explorer .process-tabs:before{background:#636363}
+#come-funziona .process-explorer .process-tab{color:#d4d4d4}
+#come-funziona .process-explorer .process-tab-number{background:#272727;border-color:#818181;color:#e2e2e2}
+#come-funziona .process-explorer .process-tab[aria-selected=true]{color:#f4f4f4}
+#come-funziona .process-explorer .process-tab[aria-selected=true] .process-tab-number{background:#dfdfdf;border-color:#dfdfdf;color:#383838}
+#come-funziona .process-track>li{--phase-accent:#7f7f7f;--phase-edge:#929292;--phase-muted:#7c7c7c;--phase-paper:#d7d7d7;--phase-ink:#424242;--phase-copy:#575757;background:#f4f4f4;border-color:#dbdbdb!important;color:#383838;box-shadow:0 12px 40px #e1e1e115,inset 0 3px 0 var(--phase-accent)}
+#come-funziona .process-track>li:first-child{--phase-accent:#7f7f7f;--phase-edge:#929292;--phase-muted:#7c7c7c;--phase-paper:#d7d7d7;--phase-ink:#424242;--phase-copy:#575757}
+#come-funziona .process-track>li:nth-child(2){--phase-accent:#737373;--phase-edge:#909090;--phase-muted:#767676;--phase-paper:#d3d3d3;--phase-ink:#404040;--phase-copy:#4f4f4f}
+#come-funziona .process-track>li:nth-child(3){--phase-accent:#7b7b7b;--phase-edge:#9b9b9b;--phase-muted:#7a7a7a;--phase-paper:#d7d7d7;--phase-ink:#484848;--phase-copy:#535353}
+#come-funziona .process-track h2{color:#373737}
+#come-funziona .process-track>li>p{color:#545454}
+#come-funziona .phase-result{color:#393939;border-color:#c7c7c7}
+#come-funziona .phase-result>span{color:var(--phase-copy)}
+#come-funziona .process-explorer .process-control,#come-funziona .process-explorer .process-position{color:#dbdbdb}
+#prezzi.pricing-section{background:#212121;color:#f5f5f5}
+#prezzi .eyebrow{color:#d2d2d2}
+#prezzi .compact-heading .section-display{color:#f5f5f5}
+#prezzi .compact-heading>p,#prezzi .pricing-note{color:#cfcfcf}
+#prezzi .price-card,#prezzi .price-card:last-child{--price-ink:#393939;--price-copy:#565656;--price-link:#4f4f4f;--price-rule:#c3c3c3;background:#f4f4f4;color:var(--price-ink);border-color:#dbdbdb;box-shadow:inset 0 3px 0 #9c9c9c}
+#prezzi .price-card h3,#prezzi .price-amount,#prezzi .price-amount>span:last-child{color:var(--price-ink)}
+#prezzi .price-amount>span:first-child,#prezzi .price-description,#prezzi .price-card li{color:var(--price-copy)}
+#prezzi .price-card ul,#prezzi .price-card:last-child ul{border-color:var(--price-rule)}
+#prezzi .price-card li:before,#prezzi .price-card .text-link,#prezzi .price-card:last-child li:before,#prezzi .price-card:last-child .text-link{color:var(--price-link)}
+#vantaggi.benefits-studio{background:radial-gradient(ellipse at 90% 18%,#d3d3d316,transparent 60%),#181818;color:#f5f5f5}
+#vantaggi .benefits-title{color:#f5f5f5}
+#vantaggi .benefits-title em{color:#e4e4e4}
+#vantaggi .benefits-intro>p{color:#d2d2d2}
+#vantaggi .benefits-intro .eyebrow{color:#d5d5d5}
+#vantaggi .benefits-board{background:#eeeeee;border-color:#d3d3d3;color:#494949;box-shadow:0 16px 42px #e0e0e01a}
+#vantaggi .benefits-board-top,#vantaggi .benefits-consistency>span{color:#4b4b4b}
+#vantaggi .benefits-outcome{--outcome-accent:#5f5f5f;background:#f5f5f5;color:#3a3a3a;border-color:#dcdcdc}
+#vantaggi .benefits-clarity{--outcome-accent:#5b5b5b}
+#vantaggi .benefits-ready{--outcome-accent:#606060}
+#vantaggi .benefits-outcome>h2{color:#3b3b3b}
+#vantaggi .benefits-outcome>p{color:#565656}
+.contact-compact{background:radial-gradient(ellipse at 78% 42%,#dcdcdc1a,transparent 55%),#161616;border-bottom:1px solid #404040;color:#f5f5f5}
+.contact-compact h1{color:#f5f5f5}
+.contact-compact h1>em{color:#eaeaea}
+.contact-compact .contact-intro>.eyebrow{color:#d6d6d6}
+.contact-compact .contact-intro-copy{color:#d6d6d6}
+.contact-compact .direct-contact{border-left-color:#9e9e9e}
+.contact-compact .direct-contact>span{color:#cacaca}
+.contact-compact .direct-contact>a{color:#f2f2f2;text-decoration-color:#949494}
+.contact-compact .direct-contact>a:hover{color:#d2d2d2}
+.contact-compact .contact-studio-form{background:#f6f6f6;border-color:#dedede;color:#393939;box-shadow:0 12px 42px #e4e4e420;color-scheme:light}
+.contact-compact .contact-studio-form:before{background:linear-gradient(90deg,transparent,#ababab,transparent)}
+.contact-compact .form-heading{border-color:#d5d5d5}
+.contact-compact .form-heading h2,.contact-compact .contact-form-seal{color:#393939}
+.contact-compact .contact-studio-form label{color:#3e3e3e}
+.contact-compact .contact-studio-form input:not([type=hidden]):not(.form-honeypot),.contact-compact .contact-studio-form select,.contact-compact .contact-studio-form textarea{background:#f0f0f0;border-color:#c1c1c1;color:#363636}
+.contact-compact .contact-studio-form input::placeholder,.contact-compact .contact-studio-form textarea::placeholder{color:#666666}
+.contact-compact .contact-studio-form input:focus,.contact-compact .contact-studio-form select:focus,.contact-compact .contact-studio-form textarea:focus{border-color:#6f6f6f;box-shadow:0 0 0 3px #73737322}
+.contact-compact .contact-studio-form .btn{background:#5f5f5f;border-color:#5f5f5f;color:#ffffff}
+.contact-compact .contact-studio-form .btn:hover{background:#737373;border-color:#737373}
+.contact-compact .contact-studio-form .btn:focus-visible{outline-color:#525252}
+.contact-compact .form-note{color:#616161}
+.contact-compact .status{color:#4c4c4c}
+@media(max-width:900px){#portfolio .portfolio-card:last-child .portfolio-copy{padding:23px}}
+@media(max-width:600px){#portfolio .portfolio-copy,#portfolio .portfolio-card:last-child .portfolio-copy{padding:22px}}
+
+.footer.site-footer.footer-slim{padding:28px 0 15px;background:#0a0a0a;border-top:1px solid #434343}
+.footer-slim-main{display:flex;align-items:center;justify-content:space-between;gap:24px}
+.footer-slim-brand{display:flex;flex-direction:column;align-items:flex-start;gap:6px;min-width:0}
+.footer-slim .brand{font-size:2.7rem;line-height:1}
+.footer-slim .footer-slogan{line-height:1.4;color:#cacaca;margin:0;max-width:none}
+.footer-slim-email{display:block;text-align:center;font-size:.73rem;line-height:1.6;margin:10px 0 0;color:#d8d8d8;overflow-wrap:anywhere}
+.footer-slim-email:hover{text-decoration:underline;text-underline-offset:4px}
+.footer-slim-base{display:grid;grid-template-columns:1fr auto 1fr;gap:24px;align-items:center;border-top:1px solid #414141;margin-top:22px;padding-top:15px}
+.footer-partner{display:flex;align-items:center;width:112px;min-height:44px;opacity:.78;filter:grayscale(1);transition:opacity .2s}
+.footer-partner:hover,.footer-partner:focus-visible{opacity:1;filter:none}
+.footer-partner img{width:100%;height:auto;max-height:33px;object-fit:contain}
+.footer-partner-switchup{justify-self:end;width:124px}
+.footer-social-icons{display:flex;align-items:center;gap:10px}
+.footer-social-icons a{display:grid;place-items:center;width:44px;height:44px;color:#dfdfdf;border:1px solid #5e5e5e;border-radius:50%;transition:background .2s,color .2s}
+.footer-social-icons a:hover{background:#404040;color:#ffffff}
+.footer-social-icons svg{width:21px;height:21px}
+
+@media(max-width:760px){.footer-slim-brand{gap:6px}.footer-slim-email{font-size:.72rem}.footer-slim-base{gap:16px}}
+@media(max-width:560px){.footer.site-footer.footer-slim{padding:24px 0 14px}.footer-slim-main{display:block}.footer-slim-brand{justify-content:flex-start;gap:6px}.footer-slim .brand{font-size:2.4rem}.footer-slim-email{display:block;margin-top:10px;font-size:.7rem}.footer-slim-base{gap:10px;margin-top:17px;padding-top:12px}.footer-partner{width:78px;min-height:44px}.footer-partner-switchup{width:86px}.footer-social-icons{gap:6px}.footer-social-icons a{width:40px;height:40px}.footer-social-icons svg{width:19px;height:19px}}
+@media(max-width:360px){.footer-slim-base{gap:6px}.footer-partner{width:68px}.footer-partner-switchup{width:75px}.footer-social-icons{gap:5px}.footer-social-icons a{width:38px;height:38px}}
+@media(prefers-reduced-motion:reduce){.footer-partner,.footer-social-icons a{transition:none}}
+
+.contact-compact .status[data-state="error"]{color:#585858}
+.contact-compact .status[data-state="success"]{color:#4c4c4c}
+
+/* Approved reference A: luminous white islands on a deep burgundy canvas. */
+:root{--bg:#3a1020;--surface:#4b1b2c;--panel:#f7f7f7;--ink:#fff;--muted:#ded9dc;--accent:#f2e9ed;--line:#876977;--button:#3a1020}
+body{background:#3a1020}
+.header{background:#250a15f7;border-color:#785461}
+.nav-links{background:radial-gradient(ellipse at 50% 40%,#75405077,transparent 72%),#270b19f5}
+.menu-pages a[aria-current=page]{color:#fff}
+.language-button{color:#eee7eb}.language-button:hover{background:#5a283c}.language-button[aria-pressed=true]{background:#f6f4f5;color:#3a1020}
+.btn{background:#3a1020;border-color:#704453;color:#fff}.btn:hover{background:#562039;border-color:#8e6577}
+.btn-outline{background:transparent;border-color:#d3bac5;color:#fff}.btn-outline:hover{background:#542335;border-color:#f4e9ee}
+.page-hero,.concise-hero,#chi-siamo,#servizi,#portfolio,#come-funziona,#prezzi.pricing-section,#vantaggi.benefits-studio,.contact-compact{background:#3a1020;color:#fff;border-color:#7a5666}
+.concise-hero .btn:not(.btn-outline){background:#f7f6f6;border-color:#f7f6f6;color:#3a1020}
+.concise-hero .btn:not(.btn-outline):hover{background:#e4d7de;border-color:#e4d7de}
+.concise-hero .btn-outline{background:transparent;border-color:#d3bac5;color:#fff}.concise-hero .btn-outline:hover{background:#542335}
+.hero-showcase:before{inset:1% -6% 8% 6%;background:radial-gradient(ellipse,#ffffffb3 0%,#ffffff55 34%,transparent 72%)}
+#chi-siamo .about-studio-board{box-shadow:0 0 54px 18px #ffffff66,0 0 105px 32px #ffffff33}
+#chi-siamo .experience-logo-link{background:transparent;border:0;box-shadow:none}
+#chi-siamo .about-studio-board,.benefits-board,.phase-visual,.offer-art svg{filter:grayscale(1)}
+#servizi .service-explorer-tab{background:#2f0d1c;border-color:#987782;color:#f7f5f6}
+#servizi .service-explorer-tab:hover{background:#58283b}
+#servizi .service-explorer-tab[aria-selected=true]{background:#f6f4f5;color:#36101e;border-color:#fff}
+#servizi .service-explorer-tab[aria-selected=true] .service-explorer-number,#servizi .service-explorer-tab[aria-selected=true] .service-explorer-marker{color:#4c2736}
+#servizi .service-explorer .offer{box-shadow:0 0 46px 14px #ffffff66,0 0 100px 26px #ffffff33}
+#portfolio .portfolio-card{box-shadow:0 0 36px 9px #ffffff44}
+#come-funziona .process-explorer.is-enhanced,#come-funziona .process-explorer[data-phase="2"],#come-funziona .process-explorer[data-phase="3"]{--path-accent:#f2e8ed}
+#come-funziona .process-explorer .process-tab-number{background:#3a1020;border-color:#ae8c9b;color:#fff}
+#come-funziona .process-explorer .process-tab[aria-selected=true] .process-tab-number{background:#faf7f9;border-color:#fff;color:#3a1020}
+#come-funziona .process-track>li{box-shadow:0 0 54px 16px #ffffff66,0 0 110px 30px #ffffff33}
+#come-funziona .process-explorer .process-controls{position:relative;background:#3a1020;border:1px solid #795867;border-radius:8px;padding:0 12px}
+#prezzi .price-card,#prezzi .price-card:last-child{box-shadow:0 0 40px 10px #ffffff55}
+#vantaggi .benefits-board{box-shadow:0 0 55px 18px #ffffff66,0 0 105px 30px #ffffff33}
+#vantaggi .benefits-outcome{box-shadow:0 0 34px 8px #ffffff44}
+.contact-compact .contact-studio-form{background:#f8f8f8;border-color:#e5e5e5;box-shadow:0 0 62px 24px #ffffffa6,0 0 120px 48px #ffffff55}
+.contact-compact .contact-studio-form:before{background:linear-gradient(90deg,transparent,#aaa,transparent)}
+.contact-compact .contact-studio-form input:focus,.contact-compact .contact-studio-form select:focus,.contact-compact .contact-studio-form textarea:focus{border-color:#69354c;box-shadow:0 0 0 3px #69354c22}
+.contact-compact .contact-studio-form .btn{background:#3a1020;border-color:#3a1020;color:#fff}.contact-compact .contact-studio-form .btn:hover{background:#572039;border-color:#572039}
+.contact-compact .contact-studio-form .btn:focus-visible{outline-color:#69354c}
+.contact-compact .status[data-state="error"]{color:#922c38}
+.contact-compact .contact-letter{max-width:340px}
+.footer.site-footer.footer-slim{background:#250a15;border-color:#7a5666}
+.footer-social-icons a{border-color:#9b7a88;color:#eee8ec}.footer-social-icons a:hover{background:#59283d}
+@media(max-width:700px){.hero-showcase:before{inset:0 -3% 5%}.contact-compact .contact-studio-form{box-shadow:0 0 30px 8px #ffffff66,0 0 64px 18px #ffffff22}#chi-siamo .about-studio-board,#servizi .service-explorer .offer,#come-funziona .process-track>li,#vantaggi .benefits-board{box-shadow:0 0 34px 10px #ffffff55,0 0 70px 20px #ffffff22}#portfolio .portfolio-card,#vantaggi .benefits-outcome,#prezzi .price-card,#prezzi .price-card:last-child{box-shadow:0 0 28px 6px #ffffff33}}
+
+/* White browser frames; the real website previews retain their original colours. */
+.hero-showcase .showcase-screen{background:#fff;border-color:#fff}
+.hero-showcase .showcase-screen:hover{border-color:#fff}
+.hero-showcase .browser-chrome{background:#fff;color:#555;border-bottom-color:#d9d9d9}
+.hero-showcase .browser-chrome i{background:#999}
+.hero-showcase .screen-name{background:#fff;color:#242424;border-top-color:#dedede}
+.hero-showcase .screen-name>span{color:#5c5c5c}
+
+/* Dark studio composition: the light belongs behind the board. */
+#chi-siamo .about-studio-board{filter:none;background:radial-gradient(ellipse at 85% 12%,#663047 0%,transparent 65%),#280d19;color:#f1e8df;border-color:#885669;color-scheme:dark}
+#chi-siamo .studio-board-top,#chi-siamo .studio-board-bottom{color:#debfca}
+#chi-siamo .studio-paper{background:#e7dccb;color:#3d1b2b;box-shadow:0 16px 32px #10030b66}
+#chi-siamo .studio-paper p{color:#3d1b2b}
+#chi-siamo .studio-paper-lines i{background:#b19e8a}
+#chi-siamo .studio-swatch{background:#bd91a0;color:#321320;box-shadow:0 14px 30px #10030b66}
+#chi-siamo .studio-swatch-rule{background:#7c4d60}
+#chi-siamo .studio-color-dots i{background:#e7dccb}
+#chi-siamo .studio-color-dots i:nth-child(2){background:#bd91a0}
+#chi-siamo .studio-color-dots i:last-child{background:#885669}
+
+/* Light falls around the artwork; dark surfaces keep it distinct. */
+#servizi .service-explorer .offer{background:#2b101d;border-color:#815164;color:#f8efe8;color-scheme:dark}
+#servizi .service-explorer .offer-art{background:#351625!important;border-bottom:1px solid #684153}
+#servizi .service-explorer .offer-art svg{filter:none}
+#servizi .service-explorer .offer h2{color:#fff4e9}
+#servizi .service-explorer .offer p{color:#e2cdd6}
+#servizi .service-explorer .offer .text-link,#servizi .service-explorer .example-open{color:#efceda}
+#siti-web .offer-art svg rect[fill="#f1eee7"]{fill:#293b34}
+#siti-web .offer-art svg rect[fill="#ddd9d2"]{fill:#3b5147}
+#siti-web .offer-art svg text[fill="#26372f"]{fill:#f2e8d7}
+#siti-web .offer-art svg text[fill="#4c5c50"],#siti-web .offer-art svg text[fill="#58695b"]{fill:#cad2bd}
+#siti-web .offer-art svg rect[fill="#26372f"]{fill:#d8c4a6}
+#siti-web .offer-art svg text[fill="#f1eee7"]{fill:#293b34}
+
+#come-funziona .process-track>li{background:linear-gradient(135deg,#432336,#28121f);border-color:#885b72!important;color:#fff1e7;--phase-accent:#d4b5cc;--phase-edge:#805c79;--phase-muted:#aa8aa2;--phase-paper:#dbc8df;--phase-ink:#3a2238;--phase-copy:#e5d2df}
+#come-funziona .process-track>li:first-child{--phase-accent:#bfd5c0;--phase-edge:#5d7b68;--phase-muted:#94ae9b;--phase-paper:#c4d6c5;--phase-ink:#253c30;--phase-copy:#e0ded3}
+#come-funziona .process-track>li:nth-child(2){--phase-accent:#d4b5cc;--phase-edge:#805c79;--phase-muted:#aa8aa2;--phase-paper:#dbc8df;--phase-ink:#3a2238;--phase-copy:#e5d2df}
+#come-funziona .process-track>li:last-child{--phase-accent:#dec18d;--phase-edge:#967950;--phase-muted:#b59d77;--phase-paper:#e7d3ad;--phase-ink:#473222;--phase-copy:#e5dac8}
+#come-funziona .phase-visual{filter:none}
+#come-funziona .process-track h2{color:#fff1e7}
+#come-funziona .process-track>li>p{color:var(--phase-copy)}
+#come-funziona .phase-result{color:#f3e5df;border-color:#785062}
+#come-funziona .phase-result>span{color:var(--phase-accent)}
+
+#vantaggi .benefits-board{filter:none;background:linear-gradient(135deg,#502538,#280f1d);border-color:#8b5e70;color:#f5e7e0}
+#vantaggi .benefits-board-top,#vantaggi .benefits-consistency>span{color:#ead2da}
+#vantaggi .benefits-browser{background:#3d283b;color:#f7ede2}
+#vantaggi .benefits-browser-bar{border-color:#785b72}
+#vantaggi .benefits-mini-button{background:#c5b594}
+#vantaggi .benefits-outcome{background:linear-gradient(135deg,#472133,#2b1220);border-color:#885a70;color:#fff0e6;--outcome-accent:#c5d5bd}
+#vantaggi .benefits-clarity{--outcome-accent:#d6bbdf}
+#vantaggi .benefits-ready{--outcome-accent:#e4c59a}
+#vantaggi .benefits-outcome>h2{color:#fff0e6}
+#vantaggi .benefits-outcome>p{color:#e3ced6}
+
+/* Selected work: one generous feature and two compact project previews. */
+#portfolio .portfolio-grid{display:grid;grid-template-columns:minmax(0,1.13fr) minmax(0,1fr);gap:22px;align-items:stretch}
+#portfolio .portfolio-card{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:0;min-width:0;background:linear-gradient(135deg,#462235,#29111e);border:1px solid #805166;border-radius:14px;overflow:hidden;color:#f7eee7;box-shadow:0 14px 32px #1c041a22;transition:border-color .2s ease}
+#portfolio .portfolio-card:hover{border-color:#bd91a0}
+#portfolio .portfolio-card:first-child{grid-row:span 2;display:flex;flex-direction:column}
+#portfolio .portfolio-preview{position:relative;display:flex;align-items:center;min-width:0;min-height:190px;padding:18px;background:linear-gradient(135deg,#b18d9e1c,#160d1955);border:0;border-radius:0;transform:none;overflow:hidden}
+#portfolio .portfolio-preview:hover{transform:none}
+#portfolio .portfolio-preview .browser-chrome{display:none}
+#portfolio .portfolio-preview img{display:block;width:100%;height:auto;aspect-ratio:1.45;object-fit:cover;object-position:top;border:1px solid #e7d5df55;border-radius:6px;box-shadow:0 12px 24px #0f041d44;filter:none;opacity:1;transform:none;transition:transform .3s ease}
+#portfolio .portfolio-preview:hover img{transform:translateY(-3px)}
+#portfolio .portfolio-card:first-child .portfolio-preview{flex:1;min-height:280px;padding:26px}
+#portfolio .portfolio-card:first-child .portfolio-preview img{aspect-ratio:1.5}
+#portfolio .portfolio-copy,#portfolio .portfolio-card:last-child .portfolio-copy{display:flex;flex-direction:column;justify-content:center;min-width:0;padding:24px 22px;gap:0}
+#portfolio .portfolio-card:first-child .portfolio-copy{padding:24px 28px 28px;border-top:1px solid #7d536455}
+#portfolio .portfolio-type{font:500 .56rem/1.5 Inter,Arial,sans-serif;letter-spacing:.14em;color:#d8b9c8;margin:0 0 9px}
+#portfolio .portfolio-copy h3{font:600 clamp(1.75rem,2.7vw,2.45rem)/1.1 'Cormorant Garamond',Georgia,serif;letter-spacing:-.025em;text-transform:none;color:#fff2e7;margin:0 0 10px}
+#portfolio .portfolio-copy>p:not(.portfolio-type){font:500 1.15rem/1.4 'Cormorant Garamond',Georgia,serif;color:#e0cbd5;min-height:0;margin:0 0 18px;max-width:34ch}
+#portfolio .portfolio-copy .text-link{align-self:flex-start;display:inline-flex;align-items:center;justify-content:space-between;gap:28px;min-height:42px;padding:5px 0;font:600 1.2rem/1.4 'Cormorant Garamond',Georgia,serif;color:#f2dac6;border-bottom:1px solid #bf9b91;text-decoration:none}
+#portfolio .portfolio-copy .text-link:after{content:'+';font:400 1.2rem/1 Arial,sans-serif;transition:transform .2s ease}
+#portfolio .portfolio-copy .text-link:hover:after{transform:rotate(90deg)}
+#portfolio .portfolio-copy .text-link:focus-visible{outline-color:#fff0e0}
+@media(min-width:1050px){#portfolio .portfolio-card:not(:first-child) .portfolio-preview{padding:18px 0 18px 18px}#portfolio .portfolio-card:not(:first-child) .portfolio-preview img{aspect-ratio:1.6;object-fit:contain;background:#1b1420}}
+@media(min-width:701px) and (max-width:1049px){#portfolio .portfolio-grid{grid-template-columns:1fr;gap:20px}#portfolio .portfolio-card,#portfolio .portfolio-card:first-child,#portfolio .portfolio-card:last-child{grid-column:auto;grid-row:auto;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr)}#portfolio .portfolio-card:first-child .portfolio-preview,#portfolio .portfolio-preview{min-height:225px;padding:22px}#portfolio .portfolio-card:first-child .portfolio-copy{padding:24px;border-top:0}}
+@media(max-width:700px){#portfolio .portfolio-grid{grid-template-columns:1fr;gap:22px}#portfolio .portfolio-card,#portfolio .portfolio-card:first-child,#portfolio .portfolio-card:last-child{grid-column:auto;grid-row:auto;display:flex;flex-direction:column}#portfolio .portfolio-preview,#portfolio .portfolio-card:first-child .portfolio-preview{flex:none;min-height:0;padding:20px 20px 0}#portfolio .portfolio-preview img,#portfolio .portfolio-card:first-child .portfolio-preview img{aspect-ratio:1.7}#portfolio .portfolio-copy,#portfolio .portfolio-card:first-child .portfolio-copy,#portfolio .portfolio-card:last-child .portfolio-copy{padding:22px;border:0}#portfolio .portfolio-copy h3{font-size:2rem}#portfolio .portfolio-copy>p:not(.portfolio-type){max-width:35ch;margin-bottom:12px;font-size:1.2rem}}
+@media(prefers-reduced-motion:reduce){#portfolio .portfolio-card,#portfolio .portfolio-preview img,#portfolio .portfolio-copy .text-link:after{transition:none}#portfolio .portfolio-preview:hover img,#portfolio .portfolio-copy .text-link:hover:after{transform:none}}
+
+/* Contact form: deep wine surfaces, warm light and readable field states. */
+.contact-compact .contact-studio-form{background:radial-gradient(ellipse at 10% 0%,#71445644,transparent 65%),linear-gradient(145deg,#402131,#230e1c);border-color:#a6758b;color:#fbefe5;color-scheme:dark;box-shadow:0 0 60px 14px #fff1f026,0 24px 50px #1c061c33}
+.contact-compact .contact-studio-form:before{background:linear-gradient(90deg,transparent,#e7c5d1aa,transparent)}
+.contact-compact .form-heading{border-color:#946b7c66}
+.contact-compact .form-heading h2,.contact-compact .contact-form-seal{color:#f5e4d6}
+.contact-compact .contact-studio-form label{color:#ead3dd}
+.contact-compact .contact-studio-form input:not([type=hidden]):not(.form-honeypot),.contact-compact .contact-studio-form select,.contact-compact .contact-studio-form textarea{background:#351c2a;border-color:#90677b;color:#fff2e8}
+.contact-compact .contact-studio-form select option{background:#351c2a;color:#fff2e8}
+.contact-compact .contact-studio-form input::placeholder,.contact-compact .contact-studio-form textarea::placeholder{color:#c7afbc;opacity:1}
+.contact-compact .contact-studio-form input:focus,.contact-compact .contact-studio-form select:focus,.contact-compact .contact-studio-form textarea:focus{border-color:#f2dac6;box-shadow:0 0 0 3px #f2dac620}
+.contact-compact .contact-studio-form input:-webkit-autofill{-webkit-text-fill-color:#fff2e8;-webkit-box-shadow:0 0 0 1000px #351c2a inset;caret-color:#fff2e8}
+.contact-compact .contact-studio-form .btn{background:#eee0cf;border-color:#eee0cf;color:#381725;box-shadow:0 6px 16px #10051822}
+.contact-compact .contact-studio-form .btn:hover{background:#fff0df;border-color:#fff0df;color:#381725}
+.contact-compact .contact-studio-form .btn:focus-visible{outline-color:#fff0df}
+.contact-compact .form-note,.contact-compact .status{color:#d2b9c5}
+.contact-compact .status[data-state="error"]{color:#ffc2cc}
+.contact-compact .status[data-state="success"]{color:#c6e0c7}
+@media(max-width:700px){.contact-compact .contact-studio-form{box-shadow:0 0 35px 8px #fff1f01f,0 16px 36px #1c061c33}}
+
+/* Persistent WhatsApp contact, kept below full-screen navigation and dialogs. */
+.whatsapp-float{position:fixed;right:max(24px,env(safe-area-inset-right));bottom:calc(24px + env(safe-area-inset-bottom));z-index:25;display:grid;place-items:center;width:58px;height:58px;border:1px solid #cba4b5;border-radius:50%;background:#3a1020;color:#eee0cf;box-shadow:0 6px 22px #13061955;transition:background .2s,transform .2s}
+.whatsapp-float svg{width:31px;height:31px;fill:currentColor}
+.whatsapp-float:hover{background:#572039;transform:translateY(-2px)}
+.nav-links .menu-signature{color:#eee0cf}
+.whatsapp-float:focus-visible{outline:3px solid #f4e4d2;outline-offset:4px}
+body.menu-open .whatsapp-float,body.dialog-open .whatsapp-float{visibility:hidden;pointer-events:none}
+@media(max-width:700px){.whatsapp-float{right:max(16px,env(safe-area-inset-right));bottom:calc(16px + env(safe-area-inset-bottom));width:54px;height:54px}.whatsapp-float svg{width:29px;height:29px}}
+@media(prefers-reduced-motion:reduce){.whatsapp-float{transition:none}.whatsapp-float:hover{transform:none}}
